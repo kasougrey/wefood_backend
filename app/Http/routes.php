@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return "test";
+    abort(404);
 });
 
 Route::get('user/',['as' => 'profile', function()
