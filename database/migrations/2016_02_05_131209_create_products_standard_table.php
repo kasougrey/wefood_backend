@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateProductsCategory extends Migration
+class CreateProductsStandardTable extends Migration
 {
     /**
      * Run the migrations.
@@ -12,11 +12,13 @@ class CreateProductsCategory extends Migration
      */
     public function up()
     {
-        Schema::create('products_category', function (Blueprint $table) {
+        Schema::create('products_standard', function (Blueprint $table) {
             $table->increments('id');
-            $table->integer('pid');
+            $table->integer('products_id');
             $table->string('title');
-            $table->smallInteger('status');
+            $table->float('price');
+            $table->string('remarks');
+            $table->integer('sale_summary');
         });
     }
 
@@ -27,6 +29,6 @@ class CreateProductsCategory extends Migration
      */
     public function down()
     {
-        Schema::drop('products_category');
+        Schema::drop('products_standard');
     }
 }

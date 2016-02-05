@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateTablesZones extends Migration
+class CreateTablesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -12,12 +12,13 @@ class CreateTablesZones extends Migration
      */
     public function up()
     {
-        Schema::create('tables_zones', function (Blueprint $table) {
+        Schema::create('tables', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('title');
-            $table->float('min_consume');
-            $table->float('reservation_price');
-            $table->integer('reservation_max_count');
+            $table->integer('tables_zones_id');
+            $table->integer('branches_id');
+            $table->string('capacity');
+            $table->integer('rank');
+            $table->smallInteger('status');
         });
     }
 
@@ -28,6 +29,6 @@ class CreateTablesZones extends Migration
      */
     public function down()
     {
-        Schema::drop('tables_zones');
+        Schema::drop('tables');
     }
 }

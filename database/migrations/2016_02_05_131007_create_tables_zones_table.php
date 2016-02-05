@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateApps extends Migration
+class CreateTablesZonesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -12,10 +12,12 @@ class CreateApps extends Migration
      */
     public function up()
     {
-        Schema::create('apps', function (Blueprint $table) {
+        Schema::create('tables_zones', function (Blueprint $table) {
             $table->increments('id');
-            $table->integer('create_users_id');
-            $table->timestamp('create_at');
+            $table->string('title');
+            $table->float('min_consume');
+            $table->float('reservation_price');
+            $table->integer('reservation_max_count');
         });
     }
 
@@ -26,6 +28,6 @@ class CreateApps extends Migration
      */
     public function down()
     {
-        Schema::drop('apps');
+        Schema::drop('tables_zones');
     }
 }
