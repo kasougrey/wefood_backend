@@ -12,23 +12,8 @@
 */
 
 Route::get('/', function () {
-    abort(404);
+
 });
-
-Route::get('user/',['as' => 'profile', function()
-{
-    return route('profile');;
-}]);
-
-Route::group(['prefix' => 'accounts/{account_id}'], function()
-{
-    Route::get('detail', function($account_id)
-    {
-        return $account_id;
-    });
-});
-
-Route::resource('photo', 'PhotoController', ['names' => ['create' => 'photo.index']]);
 /*
 |--------------------------------------------------------------------------
 | Application Routes
@@ -42,4 +27,9 @@ Route::resource('photo', 'PhotoController', ['names' => ['create' => 'photo.inde
 
 Route::group(['middleware' => ['web']], function () {
     //
+});
+
+Route::group(['middleware' => 'web'], function () {
+    Route::auth();
+    Route::get('/home', 'HomeController@index');
 });

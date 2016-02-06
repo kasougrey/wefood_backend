@@ -11,6 +11,7 @@ return array(
     'CreateBranchesCategoryTable' => $baseDir . '/database/migrations/2016_02_05_130926_create_branches_category_table.php',
     'CreateBranchesTable' => $baseDir . '/database/migrations/2016_02_05_130807_create_branches_table.php',
     'CreateCategoryTable' => $baseDir . '/database/migrations/2016_02_05_124604_create_category_table.php',
+    'CreateOrdersProductsTable' => $baseDir . '/database/migrations/2016_02_06_010507_create_orders_products_table.php',
     'CreateOrdersTable' => $baseDir . '/database/migrations/2016_02_05_151750_create_orders_table.php',
     'CreatePasswordResetsTable' => $baseDir . '/database/migrations/2014_10_12_100000_create_password_resets_table.php',
     'CreateProductsCategoryTable' => $baseDir . '/database/migrations/2016_02_05_131230_create_products_category_table.php',
