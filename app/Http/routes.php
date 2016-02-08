@@ -12,8 +12,10 @@
 */
 
 Route::get('/', function () {
-
+    return 'test';
 });
+
+Route::get('/test','TestController@test');
 /*
 |--------------------------------------------------------------------------
 | Application Routes

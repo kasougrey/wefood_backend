@@ -16,8 +16,13 @@ class CreateOrdersProductsTable extends Migration
             $table->increments('id');
             $table->integer('orders_id');
             $table->integer('products_id');
-            $table->string('remarks');
+            $table->integer('products_notes_id');
+            $table->timestamp('produce_time');
+            $table->timestamp('serving_time');
             $table->timestamps();
+            $table->integer('rank');
+            $table->smallInteger('status');
+
         });
     }
 
