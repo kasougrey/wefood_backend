@@ -20,7 +20,7 @@ class TestController extends Controller
         ]);*/
 
         $flight = User::find(1);
-        $flight->name = 'New Flight Name';
+        $flight->name = 'New User Name';
         $flight->save();
     }
 }
