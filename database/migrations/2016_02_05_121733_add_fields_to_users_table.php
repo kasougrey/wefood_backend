@@ -13,12 +13,11 @@ class AddFieldsToUsersTable extends Migration
     public function up()
     {
         Schema::table('users', function (Blueprint $table) {
-            $table->integer('apps_id');
             $table->smallInteger('sex');
-            $table->integer('avatar');
-            $table->string('openid',64);
-            $table->string('unionid',64);
-            $table->integer('level_id');
+            $table->integer('wx_avatar');
+            $table->string('wx_open_id',64);
+            $table->string('wx_union_id',64);
+            $table->integer('category_id');
             $table->smallInteger('status');
             $table->softDeletes();
         });
@@ -32,12 +31,11 @@ class AddFieldsToUsersTable extends Migration
     public function down()
     {
         Schema::table('users', function (Blueprint $table) {
-            $table->dropColumn('apps_id');
             $table->dropColumn('sex');
-            $table->dropColumn('avatar');
-            $table->dropColumn('openid');
-            $table->dropColumn('unionid');
-            $table->dropColumn('level_id');
+            $table->dropColumn('wx_avatar');
+            $table->dropColumn('wx_open_id');
+            $table->dropColumn('wx_union_id');
+            $table->dropColumn('category_id');
             $table->dropColumn('status');
         });
     }

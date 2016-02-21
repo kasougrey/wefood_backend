@@ -11,8 +11,10 @@
 |
 */
 
+
 Route::get('/', function () {
-    return 'test';
+    $test = \App\Application::find(1)->branche;
+    dump($test);
 });
 
 Route::get('/test','TestController@test');

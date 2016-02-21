@@ -24,5 +24,10 @@ class User extends Authenticatable
         'password', 'remember_token',
     ];
 
-    protected $dateFormat = 'U';
+//    protected $dateFormat = 'U';
+
+    public function application()
+    {
+        return $this->hasMany(Branch::class);
+    }
 }
