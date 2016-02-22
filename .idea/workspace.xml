@@ -2,252 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce471c95-0264-4b83-ab09-db099d990693" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Branch.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database/migrations/2015_12_29_015055_setup_access_tables.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Log.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Table.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database/migrations/2016_02_05_122112_create_users_contact_table.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database/migrations/2016_02_05_130852_create_apps_table.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database/migrations/2016_02_05_130945_create_tables_table.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database/migrations/2016_02_05_131007_create_tables_zones_table.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database/migrations/2016_02_05_131209_create_products_standard_table.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database/migrations/2016_02_05_131230_create_products_category_table.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database/migrations/2016_02_06_010507_create_orders_products_table.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database/migrations/2016_02_08_055220_create_products_notes_table.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database/migrations/2016_02_08_060232_create_logs_table.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/console/AppNamespaceDetectorTrait.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/console/Application.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/console/Command.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/console/ConfirmableTrait.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/console/Events/ArtisanStarting.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/console/GeneratorCommand.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/console/OutputStyle.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/console/Parser.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/console/ScheduleServiceProvider.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/console/Scheduling/CallbackEvent.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/console/Scheduling/Event.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/console/Scheduling/Schedule.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/console/Scheduling/ScheduleRunCommand.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/console/composer.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Auth/Access/Authorizable.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Auth/Access/Gate.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Auth/Authenticatable.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Auth/CanResetPassword.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Auth/Factory.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Auth/Guard.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Auth/PasswordBroker.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Auth/PasswordBrokerFactory.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Auth/Registrar.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Auth/StatefulGuard.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Auth/SupportsBasicAuth.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Auth/UserProvider.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Broadcasting/Broadcaster.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Broadcasting/Factory.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Broadcasting/ShouldBroadcast.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Broadcasting/ShouldBroadcastNow.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Bus/Dispatcher.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Bus/QueueingDispatcher.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Bus/SelfHandling.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Cache/Factory.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Cache/Repository.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Cache/Store.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Config/Repository.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Console/Application.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Console/Kernel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Container/BindingResolutionException.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Container/Container.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Container/ContextualBindingBuilder.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Cookie/Factory.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Cookie/QueueingFactory.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Database/ModelIdentifier.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Database/Scope.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Debug/ExceptionHandler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Encryption/DecryptException.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Encryption/EncryptException.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Encryption/Encrypter.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Events/Dispatcher.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Filesystem/Cloud.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Filesystem/Factory.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Filesystem/FileNotFoundException.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Filesystem/Filesystem.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Foundation/Application.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Hashing/Hasher.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Http/Kernel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Logging/Log.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Mail/MailQueue.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Mail/Mailer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Pagination/LengthAwarePaginator.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Pagination/Paginator.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Pagination/Presenter.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Pipeline/Hub.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Pipeline/Pipeline.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Queue/EntityNotFoundException.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Queue/EntityResolver.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Queue/Factory.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Queue/Job.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Queue/Monitor.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Queue/Queue.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Queue/QueueableEntity.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Queue/ShouldQueue.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Redis/Database.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Routing/Registrar.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Routing/ResponseFactory.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Routing/UrlGenerator.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Routing/UrlRoutable.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Support/Arrayable.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Support/Htmlable.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Support/Jsonable.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Support/MessageBag.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Support/MessageProvider.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Support/Renderable.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Validation/Factory.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Validation/UnauthorizedException.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Validation/ValidatesWhenResolved.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Validation/ValidationException.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Validation/Validator.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/View/Factory.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/View/View.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/composer.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/AggregateServiceProvider.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Arr.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/ClassLoader.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Collection.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Composer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Debug/Dumper.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Debug/HtmlDumper.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Facades/App.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Artisan.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Auth.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Blade.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Bus.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Cache.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Config.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Cookie.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Crypt.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Facades/DB.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Event.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Facade.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Facades/File.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Gate.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Hash.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Input.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Lang.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Log.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Mail.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Password.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Queue.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Redirect.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Redis.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Request.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Response.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Route.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Schema.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Session.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Storage.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Facades/URL.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Validator.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Facades/View.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Fluent.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/HtmlString.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Manager.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/MessageBag.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/NamespacedItemResolver.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Pluralizer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/ServiceProvider.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Str.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Traits/CapsuleManagerTrait.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Traits/Macroable.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/ViewErrorBag.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/composer.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/illuminate/support/helpers.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/migrations/2015_12_29_015055_setup_access_tables.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Branch.php" afterPath="$PROJECT_DIR$/app/Branch.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Category.php" afterPath="$PROJECT_DIR$/app/Category.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Kernel.php" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Order.php" afterPath="$PROJECT_DIR$/app/Order.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Product.php" afterPath="$PROJECT_DIR$/app/Product.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/ProductCategory.php" afterPath="$PROJECT_DIR$/app/ProductCategory.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/User.php" afterPath="$PROJECT_DIR$/app/User.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/app.php" afterPath="$PROJECT_DIR$/config/app.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.php" afterPath="$PROJECT_DIR$/config/database.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2016_02_05_121733_add_fields_to_users_table.php" afterPath="$PROJECT_DIR$/database/migrations/2016_02_05_121733_add_fields_to_users_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2016_02_19_141451_create_branches_table.php" afterPath="$PROJECT_DIR$/database/migrations/2016_02_19_141451_create_branches_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2016_02_19_142123_create_products_table.php" afterPath="$PROJECT_DIR$/database/migrations/2016_02_19_142123_create_products_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2016_02_19_143445_create_product_categories_table.php" afterPath="$PROJECT_DIR$/database/migrations/2016_02_19_143445_create_product_categories_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2016_02_20_154521_create_orders_table.php" afterPath="$PROJECT_DIR$/database/migrations/2016_02_20_154521_create_orders_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2016_02_20_154544_create_categories_table.php" afterPath="$PROJECT_DIR$/database/migrations/2016_02_20_154544_create_categories_table.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Auth/Access/Gate.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Auth/Access/Gate.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Auth/Console/MakeAuthCommand.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Auth/Console/MakeAuthCommand.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Auth/Console/stubs/make/controllers/HomeController.stub" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Auth/Console/stubs/make/controllers/HomeController.stub" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Filesystem/FilesystemManager.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Filesystem/FilesystemManager.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Application.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Application.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesUsers.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesUsers.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Testing/Concerns/InteractsWithPages.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Testing/Concerns/InteractsWithPages.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestCase.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestCase.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Http/Request.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Http/Request.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Pagination/AbstractPaginator.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Pagination/AbstractPaginator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Queue/Console/RetryCommand.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Queue/Console/RetryCommand.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Routing/Middleware/ThrottleRequests.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Routing/Middleware/ThrottleRequests.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Routing/ResourceRegistrar.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Routing/ResourceRegistrar.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Routing/Route.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Routing/Route.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Routing/Router.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Routing/Router.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Collection.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Collection.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/ServiceProvider.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/ServiceProvider.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Str.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Str.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Translation/Translator.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Translation/Translator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Validation/Validator.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Validation/Validator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/league/flysystem/LICENSE" afterPath="$PROJECT_DIR$/vendor/league/flysystem/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/league/flysystem/composer.json" afterPath="$PROJECT_DIR$/vendor/league/flysystem/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/league/flysystem/src/Adapter/AbstractAdapter.php" afterPath="$PROJECT_DIR$/vendor/league/flysystem/src/Adapter/AbstractAdapter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/league/flysystem/src/Adapter/AbstractFtpAdapter.php" afterPath="$PROJECT_DIR$/vendor/league/flysystem/src/Adapter/AbstractFtpAdapter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/league/flysystem/src/Adapter/Ftp.php" afterPath="$PROJECT_DIR$/vendor/league/flysystem/src/Adapter/Ftp.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/league/flysystem/src/Adapter/Ftpd.php" afterPath="$PROJECT_DIR$/vendor/league/flysystem/src/Adapter/Ftpd.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/league/flysystem/src/Adapter/Local.php" afterPath="$PROJECT_DIR$/vendor/league/flysystem/src/Adapter/Local.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/league/flysystem/src/Adapter/NullAdapter.php" afterPath="$PROJECT_DIR$/vendor/league/flysystem/src/Adapter/NullAdapter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/league/flysystem/src/Adapter/Polyfill/NotSupportingVisibilityTrait.php" afterPath="$PROJECT_DIR$/vendor/league/flysystem/src/Adapter/Polyfill/NotSupportingVisibilityTrait.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/league/flysystem/src/Adapter/Polyfill/StreamedCopyTrait.php" afterPath="$PROJECT_DIR$/vendor/league/flysystem/src/Adapter/Polyfill/StreamedCopyTrait.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/league/flysystem/src/Adapter/Polyfill/StreamedReadingTrait.php" afterPath="$PROJECT_DIR$/vendor/league/flysystem/src/Adapter/Polyfill/StreamedReadingTrait.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/league/flysystem/src/Adapter/Polyfill/StreamedTrait.php" afterPath="$PROJECT_DIR$/vendor/league/flysystem/src/Adapter/Polyfill/StreamedTrait.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/league/flysystem/src/Adapter/Polyfill/StreamedWritingTrait.php" afterPath="$PROJECT_DIR$/vendor/league/flysystem/src/Adapter/Polyfill/StreamedWritingTrait.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/league/flysystem/src/Adapter/SynologyFtp.php" afterPath="$PROJECT_DIR$/vendor/league/flysystem/src/Adapter/SynologyFtp.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/league/flysystem/src/AdapterInterface.php" afterPath="$PROJECT_DIR$/vendor/league/flysystem/src/AdapterInterface.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/league/flysystem/src/Config.php" afterPath="$PROJECT_DIR$/vendor/league/flysystem/src/Config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/league/flysystem/src/ConfigAwareTrait.php" afterPath="$PROJECT_DIR$/vendor/league/flysystem/src/ConfigAwareTrait.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/league/flysystem/src/Directory.php" afterPath="$PROJECT_DIR$/vendor/league/flysystem/src/Directory.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/league/flysystem/src/Exception.php" afterPath="$PROJECT_DIR$/vendor/league/flysystem/src/Exception.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/league/flysystem/src/File.php" afterPath="$PROJECT_DIR$/vendor/league/flysystem/src/File.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/league/flysystem/src/FileExistsException.php" afterPath="$PROJECT_DIR$/vendor/league/flysystem/src/FileExistsException.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/league/flysystem/src/FileNotFoundException.php" afterPath="$PROJECT_DIR$/vendor/league/flysystem/src/FileNotFoundException.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/league/flysystem/src/Filesystem.php" afterPath="$PROJECT_DIR$/vendor/league/flysystem/src/Filesystem.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/league/flysystem/src/FilesystemInterface.php" afterPath="$PROJECT_DIR$/vendor/league/flysystem/src/FilesystemInterface.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/league/flysystem/src/Handler.php" afterPath="$PROJECT_DIR$/vendor/league/flysystem/src/Handler.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/league/flysystem/src/MountManager.php" afterPath="$PROJECT_DIR$/vendor/league/flysystem/src/MountManager.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/league/flysystem/src/NotSupportedException.php" afterPath="$PROJECT_DIR$/vendor/league/flysystem/src/NotSupportedException.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/league/flysystem/src/Plugin/AbstractPlugin.php" afterPath="$PROJECT_DIR$/vendor/league/flysystem/src/Plugin/AbstractPlugin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/league/flysystem/src/Plugin/EmptyDir.php" afterPath="$PROJECT_DIR$/vendor/league/flysystem/src/Plugin/EmptyDir.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/league/flysystem/src/Plugin/GetWithMetadata.php" afterPath="$PROJECT_DIR$/vendor/league/flysystem/src/Plugin/GetWithMetadata.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/league/flysystem/src/Plugin/ListFiles.php" afterPath="$PROJECT_DIR$/vendor/league/flysystem/src/Plugin/ListFiles.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/league/flysystem/src/Plugin/ListPaths.php" afterPath="$PROJECT_DIR$/vendor/league/flysystem/src/Plugin/ListPaths.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/league/flysystem/src/Plugin/ListWith.php" afterPath="$PROJECT_DIR$/vendor/league/flysystem/src/Plugin/ListWith.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/league/flysystem/src/Plugin/PluggableTrait.php" afterPath="$PROJECT_DIR$/vendor/league/flysystem/src/Plugin/PluggableTrait.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/league/flysystem/src/Plugin/PluginNotFoundException.php" afterPath="$PROJECT_DIR$/vendor/league/flysystem/src/Plugin/PluginNotFoundException.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/league/flysystem/src/PluginInterface.php" afterPath="$PROJECT_DIR$/vendor/league/flysystem/src/PluginInterface.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/league/flysystem/src/ReadInterface.php" afterPath="$PROJECT_DIR$/vendor/league/flysystem/src/ReadInterface.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/league/flysystem/src/RootViolationException.php" afterPath="$PROJECT_DIR$/vendor/league/flysystem/src/RootViolationException.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/league/flysystem/src/UnreadableFileException.php" afterPath="$PROJECT_DIR$/vendor/league/flysystem/src/UnreadableFileException.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/league/flysystem/src/Util.php" afterPath="$PROJECT_DIR$/vendor/league/flysystem/src/Util.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/league/flysystem/src/Util/ContentListingFormatter.php" afterPath="$PROJECT_DIR$/vendor/league/flysystem/src/Util/ContentListingFormatter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/league/flysystem/src/Util/MimeType.php" afterPath="$PROJECT_DIR$/vendor/league/flysystem/src/Util/MimeType.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Branche.php" afterPath="$PROJECT_DIR$/app/ProductCategory.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/database/migrations/2016_02_05_130807_create_branches_table.php" afterPath="$PROJECT_DIR$/database/migrations/2016_02_19_141451_create_branches_table.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/database/migrations/2016_02_05_130926_create_branches_category_table.php" afterPath="$PROJECT_DIR$/database/migrations/2016_02_19_143445_create_product_categories_table.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/database/migrations/2016_02_05_131027_create_products_table.php" afterPath="$PROJECT_DIR$/database/migrations/2016_02_19_142123_create_products_table.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/database/migrations/2016_02_05_151750_create_orders_table.php" afterPath="$PROJECT_DIR$/database/migrations/2016_02_20_154521_create_orders_table.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/database/migrations/2016_02_19_081546_create_categories_table.php" afterPath="$PROJECT_DIR$/database/migrations/2016_02_20_154544_create_categories_table.php" />
     </list>
     <ignored path="food.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -269,71 +44,101 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="composer.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/composer.json">
+      <file leaf-file-name="2016_02_20_154544_create_categories_table.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/migrations/2016_02_20_154544_create_categories_table.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.039735">
-              <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="61" selection-end-column="3" />
+            <state vertical-scroll-proportion="-12.92">
+              <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/app.php">
+      <file leaf-file-name="2016_02_22_054253_create_logs_table.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/migrations/2016_02_22_054253_create_logs_table.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.714286">
-              <caret line="204" column="66" selection-start-line="204" selection-start-column="66" selection-end-line="204" selection-end-column="66" />
+            <state vertical-scroll-proportion="-10.32">
+              <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Kernel.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Kernel.php">
+      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-30.214285">
-              <caret line="54" column="1" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
+            <state vertical-scroll-proportion="-5.32">
+              <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="auth.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/auth.php">
+      <file leaf-file-name="Product.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Product.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="67.21429">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.7077364">
+              <caret line="13" column="48" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="database.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/database.php">
+      <file leaf-file-name="Tag.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Tag.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.0">
-              <caret line="63" column="33" selection-start-line="63" selection-start-column="33" selection-end-line="63" selection-end-column="33" />
+            <state vertical-scroll-proportion="-6.08">
+              <caret line="8" column="27" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2014_10_12_000000_create_users_table.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
+      <file leaf-file-name="2016_02_22_054530_create_tags_table.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/migrations/2016_02_22_054530_create_tags_table.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-6.52">
+              <caret line="18" column="26" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".env" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.env">
+      <file leaf-file-name="2016_02_22_072218_create_user_branches_table.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/migrations/2016_02_22_072218_create_user_branches_table.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state vertical-scroll-proportion="-11.84">
+              <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2016_02_22_073028_create_tables_table.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/migrations/2016_02_22_073028_create_tables_table.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.8">
+              <caret line="17" column="54" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2016_02_22_073039_create_table_categories_table.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/migrations/2016_02_22_073039_create_table_categories_table.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-13.68">
+              <caret line="19" column="53" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2016_02_22_073420_create_pictures_table.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/migrations/2016_02_22_073420_create_pictures_table.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.84">
+              <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -347,31 +152,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/database/migrations/2016_02_05_124604_create_category.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2016_02_05_131007_create_tables_zones.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2016_02_05_130945_create_tables.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2016_02_05_130807_create_branches.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2016_02_05_131027_create_product.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2016_02_05_131230_create_product_category.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2016_02_05_131209_create_product_standard.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2016_02_05_145711_create_orders.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2016_02_05_122112_create_users_contact.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2016_02_05_130852_create_apps.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2016_02_05_130926_create_branches_category.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2016_02_05_131027_create_products.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2016_02_05_131209_create_products_standard.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2016_02_05_131230_create_products_category.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2016_02_05_151441_create_orders.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/TestController.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2016_02_19_081546_create_categories_table.php" />
-        <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/app/Table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2016_02_05_130852_create_apps_table.php" />
-        <option value="$PROJECT_DIR$/app/Order.php" />
-        <option value="$PROJECT_DIR$/app/Category.php" />
         <option value="$PROJECT_DIR$/app/App.php" />
         <option value="$PROJECT_DIR$/database/migrations/2016_02_05_130926_create_branches_categories_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2016_02_05_121733_add_fields_to_users_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2016_02_05_122112_create_users_contact_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2016_02_05_130807_create_branches_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2016_02_05_130945_create_tables_table.php" />
@@ -384,20 +167,42 @@
         <option value="$PROJECT_DIR$/database/migrations/2016_02_08_060232_create_logs_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2016_02_19_134330_create_applications_table.php" />
         <option value="$PROJECT_DIR$/app/Branche.php" />
-        <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/database/migrations/2016_02_19_141404_create_applications_table.php" />
         <option value="$PROJECT_DIR$/app/Application.php" />
         <option value="$PROJECT_DIR$/database/migrations/2016_02_19_142857_create_product__categories_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2016_02_19_143445_create_product_categories_table.php" />
-        <option value="$PROJECT_DIR$/app/Branch.php" />
-        <option value="$PROJECT_DIR$/app/User.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2016_02_19_141451_create_branches_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2016_02_19_142123_create_products_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2016_02_20_154544_create_categories_table.php" />
-        <option value="$PROJECT_DIR$/config/database.php" />
         <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/config/app.php" />
+        <option value="$PROJECT_DIR$/config/database.php" />
         <option value="$PROJECT_DIR$/app/Http/Kernel.php" />
+        <option value="$PROJECT_DIR$/config/app.php" />
+        <option value="$PROJECT_DIR$/app/ProductCategory.php" />
+        <option value="$PROJECT_DIR$/app/Category.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2016_02_22_054235_create_product_notes_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2016_02_22_054540_create_product_tags_table.php" />
+        <option value="$PROJECT_DIR$/app/User.php" />
+        <option value="$PROJECT_DIR$/app/Branch.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2016_02_19_141451_create_branches_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2016_02_22_073039_create_table_categories_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2016_02_22_073420_create_pictures_table.php" />
+        <option value="$PROJECT_DIR$/app/Log.php" />
+        <option value="$PROJECT_DIR$/app/Order.php" />
+        <option value="$PROJECT_DIR$/app/Account.php" />
+        <option value="$PROJECT_DIR$/app/Table.php" />
+        <option value="$PROJECT_DIR$/app/TableCategory.php" />
+        <option value="$PROJECT_DIR$/app/Tag.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2016_02_22_053038_create_accounts_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2016_02_05_121733_add_fields_to_users_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2016_02_19_142123_create_products_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2016_02_19_143445_create_product_categories_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2016_02_20_154521_create_orders_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2016_02_22_054054_create_product_standards_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2016_02_22_054155_create_order_products_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2016_02_22_072218_create_user_branches_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2016_02_22_073028_create_tables_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2016_02_20_154544_create_categories_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2016_02_22_054530_create_tags_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2016_02_22_054253_create_logs_table.php" />
+        <option value="$PROJECT_DIR$/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/app/Product.php" />
       </list>
     </option>
   </component>
@@ -418,8 +223,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1696" />
-    <option name="height" value="1026" />
+    <option name="width" value="1456" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -608,8 +413,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -666,18 +471,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2567237" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37893984" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32698768" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3257066" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25979844" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45760432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -707,43 +512,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="31" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/ProductCategory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Providers/RouteServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Providers/EventServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Providers/RouteServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Providers/AuthServiceProvider.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -853,79 +621,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29187396">
-          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Branch.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.071429">
-          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Category.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Order.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Product.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/ProductCategory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.321428">
-          <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.0">
-          <caret line="63" column="33" selection-start-line="63" selection-start-column="33" selection-end-line="63" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -937,25 +632,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.714286">
-          <caret line="204" column="66" selection-start-line="204" selection-start-column="66" selection-end-line="204" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Kernel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-30.214285">
-          <caret line="54" column="1" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/auth.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="67.21429">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -963,8 +642,248 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.039735">
+        <state vertical-scroll-proportion="-31.52">
           <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="61" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.68">
+          <caret line="63" column="33" selection-start-line="63" selection-start-column="33" selection-end-line="63" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Kernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.0">
+          <caret line="50" column="0" selection-start-line="50" selection-start-column="2" selection-end-line="52" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.4">
+          <caret line="159" column="6" selection-start-line="159" selection-start-column="6" selection-end-line="159" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.6">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/ProductCategory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.6">
+          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.16">
+          <caret line="30" column="35" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Branch.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.84">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.4">
+          <caret line="17" column="43" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Account.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.36">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Order.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.12">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.44">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/TableCategory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.6">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Log.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48997134">
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2016_02_05_121733_add_fields_to_users_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.32">
+          <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2016_02_19_141451_create_branches_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.4">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2016_02_19_142123_create_products_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.52">
+          <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2016_02_19_143445_create_product_categories_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.16">
+          <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2016_02_20_154521_create_orders_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.84">
+          <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2016_02_22_054054_create_product_standards_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.56">
+          <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2016_02_22_054155_create_order_products_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.56">
+          <caret line="18" column="57" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2016_02_22_073420_create_pictures_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.84">
+          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2016_02_22_073039_create_table_categories_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.68">
+          <caret line="19" column="53" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2016_02_22_073028_create_tables_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.8">
+          <caret line="17" column="54" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2016_02_22_072218_create_user_branches_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.84">
+          <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2016_02_20_154544_create_categories_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.92">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2016_02_22_054530_create_tags_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.52">
+          <caret line="18" column="26" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2016_02_22_054253_create_logs_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.32">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.32">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Tag.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.08">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7077364">
+          <caret line="13" column="48" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
           <folding />
         </state>
       </provider>

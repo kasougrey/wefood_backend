@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateOrdersTable extends Migration
+class CreateUserBranchesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -12,14 +12,12 @@ class CreateOrdersTable extends Migration
      */
     public function up()
     {
-        Schema::create('orders', function (Blueprint $table) {
+        Schema::create('user_branches', function (Blueprint $table) {
             $table->increments('id');
-            $table->bigInteger('orders_sn');
-            $table->integer('branche_id')->unsigned();
             $table->integer('user_id')->unsigned();
-            $table->integer('category_id')->unsigned();
-            $table->integer('table_id')->unsigned();
-            $table->float('total');
+            $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
+            $table->integer('branch_id')->unsigned();
+            $table->foreign('branch_id')->references('id')->on('branches')->onDelete('cascade');
             $table->timestamps();
         });
     }
@@ -31,6 +29,6 @@ class CreateOrdersTable extends Migration
      */
     public function down()
     {
-        Schema::drop('orders');
+        Schema::drop('user_branches');
     }
 }

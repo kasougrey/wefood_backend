@@ -156,7 +156,7 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
         Stevenyangecho\UEditor\UEditorServiceProvider::class,
-        Zizaco\Entrust\EntrustServiceProvider::class,
+//        Zizaco\Entrust\EntrustServiceProvider::class,
     ],
 
     /*
@@ -202,7 +202,7 @@ return [
         'URL'       => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View'      => Illuminate\Support\Facades\View::class,
-        'Entrust' => Zizaco\Entrust\EntrustServiceProvider::class,
+//        'Entrust' => Zizaco\Entrust\EntrustServiceProvider::class,
     ],
 
 ];

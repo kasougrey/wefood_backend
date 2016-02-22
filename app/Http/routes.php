@@ -13,8 +13,9 @@
 
 
 Route::get('/', function () {
-    $test = \App\Application::find(1)->branche;
-    dump($test);
+    $test = \App\product::find(1)->tags;
+    dump($test->title);
+
 });
 
 Route::get('/test','TestController@test');

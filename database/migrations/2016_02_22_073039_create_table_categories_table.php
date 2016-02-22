@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateBranchesTable extends Migration
+class CreateTableCategoriesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -12,10 +12,12 @@ class CreateBranchesTable extends Migration
      */
     public function up()
     {
-        Schema::create('branches', function (Blueprint $table) {
+        Schema::create('table_categories', function (Blueprint $table) {
             $table->increments('id');
             $table->string('title');
-            $table->smallInteger('status');
+            $table->float('min_consume');
+            $table->float('reservation_price');
+            $table->integer('reservation_max_count');
             $table->timestamps();
         });
     }
@@ -27,6 +29,6 @@ class CreateBranchesTable extends Migration
      */
     public function down()
     {
-        Schema::drop('branches');
+        Schema::drop('table_categories');
     }
 }

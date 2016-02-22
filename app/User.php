@@ -26,8 +26,21 @@ class User extends Authenticatable
 
 //    protected $dateFormat = 'U';
 
-    public function application()
+    public function branches()
     {
-        return $this->hasMany(Branch::class);
+        return $this->belongsToMany(Branch::class);
     }
+
+    public function category(){
+        return $this->belongsTo(Category::class);
+    }
+
+    public function account(){
+        return $this->hasOne(Account::class);
+    }
+
+    public function orders(){
+        return $this->hasMany(Order::class);
+    }
+
 }

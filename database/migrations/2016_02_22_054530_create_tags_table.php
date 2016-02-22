@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateOrdersTable extends Migration
+class CreateTagsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -12,14 +12,13 @@ class CreateOrdersTable extends Migration
      */
     public function up()
     {
-        Schema::create('orders', function (Blueprint $table) {
+        Schema::create('tags', function (Blueprint $table) {
             $table->increments('id');
-            $table->bigInteger('orders_sn');
-            $table->integer('branche_id')->unsigned();
             $table->integer('user_id')->unsigned();
-            $table->integer('category_id')->unsigned();
-            $table->integer('table_id')->unsigned();
-            $table->float('total');
+            $table->integer('tagable_id')->unsigned();
+            $table->string('tagable_type');
+            $table->integer('title');
+            $table->integer('count');
             $table->timestamps();
         });
     }
@@ -31,6 +30,6 @@ class CreateOrdersTable extends Migration
      */
     public function down()
     {
-        Schema::drop('orders');
+        Schema::drop('tags');
     }
 }
