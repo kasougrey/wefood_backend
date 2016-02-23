@@ -11,6 +11,6 @@ class Product extends Model
     }
 
     public function tags(){
-        return $this->morphToMany('App\Tag','tag');
+        return $this->morphMany(Tag::class, 'tagable');
     }
 }

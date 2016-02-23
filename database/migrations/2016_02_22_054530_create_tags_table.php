@@ -17,7 +17,7 @@ class CreateTagsTable extends Migration
             $table->integer('user_id')->unsigned();
             $table->integer('tagable_id')->unsigned();
             $table->string('tagable_type');
-            $table->integer('title');
+            $table->string('title');
             $table->integer('count');
             $table->timestamps();
         });

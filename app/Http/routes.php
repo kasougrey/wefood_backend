@@ -13,8 +13,8 @@
 
 
 Route::get('/', function () {
-    $test = \App\product::find(1)->tags;
-    dump($test->title);
+    $test = \App\Account::find(4)->logs;
+    dump($test->toArray());
 
 });
 
